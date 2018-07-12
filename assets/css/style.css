@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.cell{
+	border: 1px solid black;
+}
+
+
+
+.overlayingcard{
+	 position: absolute; /* Sit on top of the page content */
+    width: 70%; /* Full width (cover the whole page) */
+    height: 100px; /* Full height (cover the whole page) */
+    top: 40%; 
+    left: 15%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    /*cursor: pointer; *//* Add a pointer on hover */
+}
+.me{
+	height: 300px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+
+
+.ppadding{
+	padding-top: 200px;
+}
+
+
+
+
+
+.menufixed{
+	position:relative;
+}
+
+.cardcontentcolor{
+	background-color: #3cba54;
+	color: white;
+}
+
+
+
+
