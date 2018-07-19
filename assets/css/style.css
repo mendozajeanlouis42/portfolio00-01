@@ -23,15 +23,13 @@
 
 
 .overlayingcard{
-	 position: absolute; /* Sit on top of the page content */
-    width: 70%; /* Full width (cover the whole page) */
-    height: 100px; /* Full height (cover the whole page) */
-    top: 40%; 
-    left: 15%;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+	 position: relative; /* Sit on top of the page content */
+    /*width: 960px;*/ /* Full width (cover the whole page) */
+    /*height: 100px;*/ /* Full height (cover the whole page) */
+    top: -200px; 
+
+   /* background-color: rgba(0,0,0,0.5);*/ /* Black background with opacity */
+   /* z-index: 1;*/ /* Specify a stack order in case you're using a different order for other elements */
     /*cursor: pointer; *//* Add a pointer on hover */
 }
 .me{
@@ -42,7 +40,7 @@
 
 
 .ppadding{
-	padding-top: 200px;
+	/*padding-bottom: 200px;*/
 }
 
 
@@ -99,9 +97,48 @@ width: 30%;
 
 
 .educmargination{
-	margin-top: 5%;
+	margin-top: 10%;
 	position: relative;
 }
+
+
+
+
+
+.about-sec{
+  position: relative;
+  top: -80px;
+
+
+}
+
+
+
+
+
+
+
+
+.hctrl{
+  height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+/*progress bar*/
+.progress {
+  height: 15px;
+
+}
+
+
 
 
 
@@ -128,19 +165,20 @@ width: 30%;
 @media only screen and (max-width: 400px) 
 {
 
-
 .educdivider{
-	margin: 20%;
+  margin: 20%;
 }
 
+
+
 .educupbox{
-	/*position: absolute;*/
-	bottom: 50px;
+  /*position: absolute;*/
+  bottom: 50px;
 }
 
 /*timeline*/
 .vl {
-	left: 50%;
+  left: 50%;
     border-left: 6px solid green;
     height: 80%;
     position: absolute;
@@ -150,14 +188,14 @@ width: 30%;
 
 
 .prepatory {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
-  top: -10%;
+  top: -25px;
   border-radius: 50%;
-  left: 44%;
+  left: -25px;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -168,14 +206,14 @@ width: 30%;
 
 
 .highschool {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 44%;
-  top: 14%;
+  left: -28px;
+  top: 280px;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -186,14 +224,14 @@ width: 30%;
 
 
 .college {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 44%;
-  top: 34%;
+  left: -28px;
+  top: 48%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -203,14 +241,14 @@ width: 30%;
 
 
 .grad {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 44%;
-  top: 54%;
+  left: -28px;
+  top: 73%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -219,19 +257,21 @@ width: 30%;
 
 
 .training {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 44%;
-  top: 74%;
+  left: -28px;
+  top: 97%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
   z-index: 1;
 }
+
+
 
 
 
@@ -247,21 +287,22 @@ width: 30%;
  {
 
 
-
 .educdivider{
-	margin: 10%;
+  margin: 20%;
 }
 
+
+
 .educupbox{
-	/*position: absolute;*/
-	bottom: 50px;
+  /*position: absolute;*/
+  bottom: 50px;
 }
 
 /*timeline*/
 .vl {
-	left: 50%;
+  left: 50%;
     border-left: 6px solid green;
-    height: 85%;
+    height: 80%;
     position: absolute;
     top: -3%;
 }
@@ -269,14 +310,14 @@ width: 30%;
 
 
 .prepatory {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
-  top: -10%;
+  top: -25px;
   border-radius: 50%;
-  left: 98%;
+  left: -25px;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -287,14 +328,14 @@ width: 30%;
 
 
 .highschool {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 15%;
+  left: -28px;
+  top: 280px;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -305,14 +346,14 @@ width: 30%;
 
 
 .college {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 35%;
+  left: -28px;
+  top: 48%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -322,14 +363,14 @@ width: 30%;
 
 
 .grad {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 55%;
+  left: -28px;
+  top: 73%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -338,21 +379,19 @@ width: 30%;
 
 
 .training {
-	color: white;
-	font-size: 25px;
-	position: absolute;
+  color: white;
+  font-size: 25px;
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 79%;
+  left: -28px;
+  top: 97%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
   z-index: 1;
 }
-
-
 
 
 
@@ -378,7 +417,7 @@ width: 30%;
 .vl {
 	left: 50%;
     border-left: 6px solid green;
-    height: 83%;
+    height: 80%;
     position: absolute;
     top: -3%;
 }
@@ -391,9 +430,11 @@ width: 30%;
 	position: absolute;
   width: 50px;
   height: 50px;
-  top: -10%;
+  top: -25px;
   border-radius: 50%;
-  left: 98%;
+  left: -25px;
+  /*right: 15%;*/
+
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -410,8 +451,8 @@ width: 30%;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 15%;
+  left: -25px;
+  top: 22%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -428,8 +469,8 @@ width: 30%;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 35%;
+  left: -25px;
+  top: 46%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -445,8 +486,8 @@ width: 30%;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 55%;
+  left: -25px;
+  top: 70%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
@@ -461,8 +502,8 @@ width: 30%;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  left: 47.5%;
-  top: 77%;
+  left: -25px;
+  top: 98%;
   line-height: 50px;
   text-align: center;
   background: #66bb6a;
