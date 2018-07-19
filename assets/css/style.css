@@ -22,6 +22,16 @@
 }
 
 
+.projimg{
+  height: 300px;
+  width: 300px;
+  padding-right: 10px;
+  margin-left: -10px;
+}
+
+
+
+
 .overlayingcard{
 	 position: relative; /* Sit on top of the page content */
     /*width: 960px;*/ /* Full width (cover the whole page) */
