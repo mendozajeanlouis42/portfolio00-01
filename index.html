@@ -39,11 +39,11 @@
     <li><a href="#about" class="sidenav-close">ABOUT</a></li>
     <li><a href="#education" class="sidenav-close">EDUCATION</a></li>
     <li><a href="#skills" class="sidenav-close">SKILLS</a></li>
-    <li><a href="#experience" class="sidenav-close">EXPERIENCE</a></li>
-    <li><a href="#portfolios" class="sidenav-close">PORTFOLIOS</a></li>
-    <li><div class="divider"></div></li>
+    <li><a href="#projects" class="sidenav-close">PROJECTS</a></li>
+    <!-- <li><a href="#portfolios" class="sidenav-close">PORTFOLIOS</a></li> -->
+  <!--   <li><div class="divider"></div></li>
     <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
   </ul>
 <!-- end side menu -->
 
@@ -75,9 +75,10 @@
             <h4> Jean-Louis Mendoza</h4>
             <h6 class="frontme">Full-Stack Web Developer</h6>
           </p>
-          <p><i class="far fa-envelope"></i> mendozajeanlouis690@gmail.com</p>
-          <p><i class="fas fa-map-marker"></i> Manila, Philippines</p>
-         <a href="#"><i class="fab fa-facebook-square"></i></a> 
+          <p><i class="far fa-envelope socmedtext"></i> mendozajeanlouis690@gmail.com</p>
+          <p><i class="fas fa-map-marker socmedtext"></i> Manila, Philippines</p>
+          <a href="https://www.facebook.com/jeaniuskeik" target="_blank"><img src="assets/images/facebook.png" class="socmed socmedtext"></a>
+          <a href="https://plus.google.com/u/2/114932468458393030000" target="_blank"><img src="assets/images/google-plus.png" class="socmed socmedtext"></a>
 
         </div>
  
@@ -85,10 +86,6 @@
     </div><!--  horizontal card end -->
   </div><!--  overlay card end -->
  <!-- </div> -->
-
-
-
-
 
 
 <section id="about" class="about-sec">
@@ -102,8 +99,8 @@
           <p>Hello I'm Jean-Louis Mendoza, Full Stack Web Developer with less than a year of Experience of specializing in front end development and back end development. Lorem  </p>
         </div>
         <div class="card-action">
-          <a class="waves-effect waves-light btn green accent-4">Download CV</a>
-          <a class="waves-effect waves-light btn green accent-4">Contact me</a>
+          <a class="waves-effect waves-light btn disabled green accent-4">Download CV</a>
+          <a class="waves-effect waves-light btn disabled green accent-4">Contact me</a>
         </div>
       </div>
     </div>
@@ -125,8 +122,8 @@
 
 
   
-    <div class="educmargination">
-<div class="vl">
+    <div class="educmargination" data-aos="fade-up">
+<div class="vl" >
    <div class="prepatory">P</div>
  <div class="highschool">H</div>
   <div class="college">C</div>
@@ -382,9 +379,24 @@
 
 
 
+  <div class="row educdivider">
+
+ <div class="col s12 m6 offset-m5 offset-s4">
+<img src='assets/images/development.png' class="educicon"/>
+ </div>
+<section id="projects">
+   <div class="col s12 m12 eductxt">
+  <h2>Projects</h2>
+   </div>
+
+  </div>
+
+
+
 <section id="projects">
     
-    <div class="col s12 m12">
+    <div class="col s12 m12" data-aos="fade-up"
+                            data-aos-duration="1000>
       <div class="row">
       <div class="card-panel">
         <div class="programming">
@@ -392,22 +404,37 @@
           <div class="row">
            
             <div class="col col s12 m4">
-              <img src="assets/images/300x300.png" class="projimg">
+              <img src="assets/images/300x300.png" class="projimg p-image">
              <span class="programminng eductxt"><h6>Thesis: Web-Based Management and Accounting System with Decision Support System (DSS) for AST Industrial and Mechanical Services</h6></span>
+
+             <div class="col col s12 m12">
+              <a class="waves-effect waves-light btn-small green accent-4 disabled">More Info</a>
+              <a class="waves-effect waves-light btn-small green accent-4 disabled prjbtns">Website Link</a>
+               </div>
+      
               </div>
 
          <div class="col col s12 m4">
-              <img src="assets/images/vintage.png" class="projimg">
+              <img src="assets/images/vintage.png" class="projimg p-image">
              <span class="programminng eductxt"><h6>Vintage Themed Website</h6></span>
+              
+                <div class="col col s12 m12">
+              <a class="waves-effect waves-light btn-small green accent-4 disabled">More Info</a>
+              <a href="https://mendozajeanlouis42.github.io/myvintage/" target="_blank" class="waves-effect waves-light btn-small green accent-4 prjbtns">Website Link</a>
+               </div>
+
               </div>
 
       
-         <div class="col col s12 m4">
-              <img src="assets/images/ran.png" class="projimg">
+         <div class="col col s12 m4" >
+              <img src="assets/images/ran.png" class="projimg p-image">
              <span class="programminng eductxt"><h6>Online Game website: RAN Online</h6></span>
               </div>
 
- 
+                 <div class="col col s12 m4">
+              <a class="waves-effect waves-light btn-small green accent-4 disabled">More Info</a>
+              <a href="https://mendozajeanlouis42.github.io/capstone01-02/" target="_blank" class="waves-effect waves-light btn-small green accent-4 prjbtns">Website Link</a>
+               </div>
 
             </div>
         </div>
@@ -445,8 +472,33 @@
 
   </div> <!--  container end -->
 
+       <footer class="page-footer green darken-1">
+         <!--  <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          <div class="footer-copyright">
+            <div class="container">
+           
+            <a class="grey-text text-lighten-4 right" href="#!"> </a>
+            </div>
+          </div>
 
-                 
+         
+        </footer>  
 
 
 
